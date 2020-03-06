@@ -9,7 +9,7 @@ import static org.junit.Assert.assertThat;
 public class UnitTest
 {
     private static final FizzBuzz fizzbuzz = new FizzBuzz();
-    public int numberToSplit = 3;
+    public int numberToSplit = 30;
 
     @Test
     public void should_return_empty_string_if_number_is_not_divisible()
