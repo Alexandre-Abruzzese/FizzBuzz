@@ -2,9 +2,9 @@ package main;
 
 public class FizzBuzz
 {
-    public String fizz_buzz(int number_to_split)
+    public String fizz_buzz(int numberToSplit)
     {
-        if (number_to_split%3 == 0 || number_to_split%5 == 0)
+        if (numberToSplit%3 == 0 || numberToSplit%5 == 0)
         {
             return "";
         }
