@@ -10,15 +10,18 @@ public class FizzBuzz
             {
                 return "fizzbuzz";
             }
-            if (numberToSplit%3 == 0)
+            else if (numberToSplit%3 == 0)
             {
                 return "fizz";
             }
-            if (numberToSplit%5 == 0)
+            else if (numberToSplit%5 == 0)
             {
                 return "buzz";
             }
-            return "";
+            else
+            {
+                return "";
+            }
         }
         return "fail";
     }
