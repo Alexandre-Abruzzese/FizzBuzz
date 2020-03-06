@@ -20,7 +20,7 @@ public class UnitTest
     @Test
     public void should_return_fizz_if_number_is_divisible_by_three()
     {
-        int numberToSplit = 40;
+        int numberToSplit = 3;
         assertThat(fizzbuzz.fizz_buzz(numberToSplit), equalTo("fizz"));
     }
 }

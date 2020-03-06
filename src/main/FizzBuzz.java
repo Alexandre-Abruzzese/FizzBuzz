@@ -6,6 +6,10 @@ public class FizzBuzz
     {
         if (numberToSplit%3 == 0 || numberToSplit%5 == 0)
         {
+            if (numberToSplit%3 == 0)
+            {
+                return "fizz";
+            }
             return "";
         }
         return "fail";
