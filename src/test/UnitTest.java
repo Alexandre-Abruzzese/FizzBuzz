@@ -16,4 +16,11 @@ public class UnitTest
         int numberToSplit = 40;
         assertThat(fizzbuzz.fizz_buzz(numberToSplit), equalTo(""));
     }
+
+    @Test
+    public void should_return_fizz_if_number_is_divisible_by_three()
+    {
+        int numberToSplit = 40;
+        assertThat(fizzbuzz.fizz_buzz(numberToSplit), equalTo("fizz"));
+    }
 }
