@@ -28,4 +28,10 @@ public class UnitTest
     {
         assertThat(fizzbuzz.fizz_buzz(numberToSplit), equalTo("buzz"));
     }
+
+    @Test
+    public void should_return_fizzbuzz_if_number_is_divisible_by_three_and_five()
+    {
+        assertThat(fizzbuzz.fizz_buzz(numberToSplit), equalTo("fizzbuzz"));
+    }
 }
